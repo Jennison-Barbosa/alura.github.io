@@ -23,18 +23,87 @@
   </head>
   <body>
     <div class="container">
-      <h1 class="page-title">Conversor de Moedas</h1>
-      <p class="page-subtitle">Descubra os valores em Real R$</p>
+      <h1 class="page-title">Conversores de moedas</h1>
+      <p class="page-subtitle">Descubra os valores de cada conversão!</p>
       <img
         src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
         class="page-logo"
         alt=""
       /><br /><br />
-      <label for="moeda">Insira o valor</label><br />
+      <label for="moeda">Digite o valor em Dolar</label><br />
       <input type="number" id="valor" size="2" /><br />
-      <button type="submit" onclick="Converter()">Converter</button>
-      <h2 id="valorConvertido"></h2>
+      <button type="submit" onclick="ConverterDolar()">Converter</button><br />
+      <h2 type="text" id="valorConvertido" size="2"></h2>
+      <br />
+      <br />
+      <label for="moeda">Digite o valor em Euro</label><br />
+      <input type="number" id="valor" size="2" /><br />
+      <button type="submit" onclick="ConverterEuro()">Converter</button><br />
+      <h2 type="text" id="valorConvertido" size="2"></h2>
+      <br />
+      <br />
+      <label for="moeda">Digite o valor em Libra</label><br />
+      <input type="number" id="valor" size="2" /><br />
+      <button type="submit" onclick="ConverterLibra()">Converter</button><br />
+      <h2 type="text" id="valorConvertido" size="2"></h2>
     </div>
+    <div class="container2">
+      <h1 class="page-title2">Conversor de temperatura</h1>
+      <p class="page-subtitle2">Descubra as temperaturas!</p>
+      <img
+        src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+        class="page-logo2"
+        alt=""
+      /><br /><br />
+      <label for="graus"> °C (celsius)</label><br />
+      <input type="number" id="grauC" size="2" /><br />
+      <button type="submit" onclick="ConverterCelsius()">
+        Converter para (°F)Fahrenheit
+      </button>
+      <h2 id="grauConvertido"></h2>
+      <br />
+      <br />
+      <label for="graus">°C (celsius)</label><br />
+      <input type="number" id="grauK" size="2" /><br />
+      <button type="submit" onclick="ConverterKelvin()">
+        Converter para (°K)Kelvin
+      </button>
+      <h2 id="grauConvertidoK"></h2>
+      <br />
+      <br />
+      <label for="graus">°K (Kelvin)</label><br />
+      <input type="number" id="grauF" size="2" /><br />
+      <button type="submit" onclick="ConverterFahrenheit()">
+        Converter para (°F)Fahrenheit
+      </button>
+      <h2 id="grauConvertidoF"></h2>
+    </div>
+    <div class="container3">
+      <h1 class="page-title3">Conversor de BitCoins</h1>
+      <p class="page-subtitle3">Descubra quanto vale seu dinheiro em BTC!</p>
+      <img
+        src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+        class="page-logo3"
+        alt=""
+      /><br /><br />
+      <label for="bitcoins">Digite o valor para conversão.</label><br />
+      <input type="number" id="btc" size="2" /><br />
+      <button type="submit" onclick="ConverterBtc()">Converter</button>
+      <h2 id="btcConvertido"></h2>
+      <br />
+      <br />
+      <h1 class="page-title3-1">Mentalista</h1>
+      <p class="page-subtitle3-1">Digite um numero de 0 a 10</p>
+      <img
+        src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg"
+        class="page-logo3-1"
+        alt=""
+      /><br /><br />
+      <input type="number" id="valor" /><br />
+      <button type="submit" onclick="Chutar()">Chutar</button>
+      <h2 id="resultado"></h2>
+    </div>
+
     <a href="https://pebdigital.com.br/" target="_blank">
       <img src="/img/12.png" alt="" class="PeB-logo" />
     </a>
