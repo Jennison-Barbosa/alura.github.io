@@ -1,21 +1,72 @@
 body {
   font-family: 'Exo 2',sans-serif;
-  min-height: 600px;
+  min-height: 800px;
   background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-1-conversor-de-moedas.png');
   background-color: #000000;
-  background-size: 100vh;
-  background-position: center bottom;
+  background-size: 50vh;
+  background-position: left bottom;
   background-repeat: no-repeat;
+    
 }
 
 .container {
+  display: inline-block;
   text-align: center;
+  width: 500px;
+  border: 5px solid rgb(226, 241, 13);
   padding: 20px;
-  height: 100vh;
+  margin: 5px;
+  height: 800px;
+}
+
+.container2 {
+  display: inline-block;  
+  text-align: center;
+  width: 500px; /*largura*/
+  border: 5px solid green;
+  padding: 20px;
+  margin: 5px;
+  height: 800px; /*altura*/
+  
+}
+
+.container3 {
+  display: inline-block;  
+  text-align: center;
+  width: 500px; /*largura*/
+  border: 5px solid rgb(128, 0, 102);
+  padding: 20px;
+  margin: 5px;
+  height: 700px; /*altura*/
+  
 }
 
 .page-title {
   color:#ffffff;
+  margin: 0 0 5px;
+  font-style: italic;
+}
+
+.page-title2 {
+  color: rgb(255, 94, 0);
+  margin: 0 0 5px;
+  font-style: italic;
+}
+
+.page-title2-1 {
+  color: rgb(255, 94, 0);
+  margin: 0 0 5px;
+  font-style: italic;
+}
+
+.page-title3 {
+  color: rgb(255, 162, 0);
+  margin: 0 0 5px;
+  font-style: italic;
+}
+
+.page-title3-1 {
+  color: rgb(131, 219, 239);
   margin: 0 0 5px;
   font-style: italic;
 }
@@ -25,12 +76,48 @@ body {
   margin-top: 5px;
 }
 
+.page-subtitle2 {
+  color: #a4e229;
+  margin-top: 5px;
+}
+
+.page-subtitle2-1 {
+  color: #a4e229;
+  margin-top: 5px;
+}
+
+.page-subtitle3 {
+  color: #a4e229;
+  margin-top: 5px;
+}
+
+.page-subtitle3-1 {
+  color: #a4e229;
+  margin-top: 5px;
+}
+
 .page-logo {
   width: 200px;
 }
 
+.page-logo2 {
+  width: 200px;
+}
+
+.page-logo2-1 {
+  width: 200px;
+}
+
+.page-logo3 {
+  width: 200px;
+}
+
+.page-logo3-1 {
+  width: 200px;
+}
+
 .PeB-logo {
-  width: 100px;
+  width: 80px;
   position: absolute;
   top: 10px;
   right: 10px;
@@ -54,6 +141,14 @@ button {
 }
 
 h2 {
-  color: #ffffff;
-  font-size: 30px;
+  display: flexbox;
+  text-align: center;
+  color: #000000;
+  font-size: 20px;
+  margin-top: 12px;
+  padding: 2px 2px;
+  border-radius: 10px;
+  background: #ffffff;
+  height: 25px;
+  
 }
